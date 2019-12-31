@@ -1,0 +1,29 @@
+body {
+  background: #f0f0f0;
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block;
+  /* margin-top: 100px; */
+  margin-left: auto;
+  margin-right: auto;
+  background: #222;
+  border: none;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 80px;
+}
+
+.scores small {
+  font-size: 20px;
+  margin: 10px;
+}
